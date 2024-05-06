@@ -1,0 +1,210 @@
+body{
+    background-color:rgba(174,188,175,255) ;
+}
+<!--Task-1-->
+#table1, th, td{
+    border: 1px solid black;
+}
+#table1 th{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+caption{
+    font-style:italic,bold;
+    font-size: 18px;
+}
+
+<!--Task-2-->
+#table2,th,td{
+    border: 1px solid black;
+}
+
+
+nav a{
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.container{
+    width: 490px;
+    height: 260px;
+    background-color: blueviolet;
+    margin-left: 40px;
+    border-radius: 20px;
+    display: flexbox;
+    
+}
+.container #nav3{
+    display: inline;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#logo{
+    width: 40px;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 5px;
+    }
+#tables{
+    margin-left: 40px;
+    background-color:lightgray;
+    margin-top: 15px;
+}
+
+.contact-form-container{
+    
+    background-color: blueviolet;
+    width: 500px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 20px;
+    
+}
+.contact-form-container label,p{
+    margin-left: 20px;
+    color: white;
+}
+#button{
+    margin-left: 200px;
+}
+
+.contact-form-container h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+legend{
+    color: white;
+    background-color: burlywood;
+    font-size:medium;
+    
+}
+#card{
+    width: 1300px;
+    height: 650px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    background-color:rgba(73,94,77,255);
+    padding-top: 30px;
+    border-radius: 20px;
+}
+#card h2{
+    margin-bottom: 0px;
+    display: inline;
+}
+
+#interior{
+    width: 280px;
+    height: 280px;
+   
+    margin-left: 50px;
+    display: inline;
+    float: left;
+    margin-top: 130px;
+}
+
+#interior h1{
+    margin-left: 70px;
+    margin-top: 10px;
+    color: white;  
+}
+
+#interior p{
+    margin-left: 70px;
+    margin-top: 40px;
+    color: white;
+    word-wrap: break-word;
+   
+}
+#find{
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+    display: inline;
+    color: white;
+    width: 20px;
+}
+#menu{
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+    display: inline;
+    color: white;
+    width: 20px;
+    transform:scaleY(-1);
+    transform: scaleX(-1);
+}
+#navigation{
+    padding-left: 350px;
+    margin-top: 0px;
+    text-decoration: none;
+    size: 150px;
+    word-spacing: 50px;
+    display: inline;
+}
+#modern{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+#one{
+width: 250px;
+height: 400px;
+float: right;
+padding-left: 25px;
+padding-right: 0px;
+display: inline;
+margin-top: 70px;
+}
+
+#two{
+    width: 250px;
+    height: 400px; 
+    float: right; 
+    padding-left: 25px;
+    margin-top: 90px;
+    display: inline;
+}
+
+#three{
+    width: 250px;
+    height: 400px;
+    float: right;
+    display: inline;
+    margin-top: 110px;
+    
+}
+
+#learn{
+    background-color: rgba(255,206,163,255);
+    width: 150px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 90px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+    display: flex;
+}
+
+#scroll{
+    transform: rotate(180deg);
+    width: 40px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1200px;
+}
